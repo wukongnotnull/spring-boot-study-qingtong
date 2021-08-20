@@ -4,6 +4,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/_01-hello-world/pom.xml" />
+        <option value="$PROJECT_DIR$/_02-start-icon/pom.xml" />
+        <option value="$PROJECT_DIR$/_03-unit-test/pom.xml" />
+        <option value="$PROJECT_DIR$/_04-hot-deployment/pom.xml" />
       </list>
     </option>
   </component>

@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/_01-hello-world/_01-hello-world.iml" filepath="$PROJECT_DIR$/_01-hello-world/_01-hello-world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_02-start-icon/_02-start-icon.iml" filepath="$PROJECT_DIR$/_02-start-icon/_02-start-icon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_03-unit-test/_03-unit-test.iml" filepath="$PROJECT_DIR$/_03-unit-test/_03-unit-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_04-hot-deployment/_04-hot-deployment.iml" filepath="$PROJECT_DIR$/_04-hot-deployment/_04-hot-deployment.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-study-qingtong.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-study-qingtong.iml" />
     </modules>
   </component>
