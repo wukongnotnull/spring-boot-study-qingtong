@@ -2,13 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="_04-hot-deployment" />
         <module name="_02-start-icon" />
+        <module name="_06-inject-property" />
         <module name="_01-hello-world" />
+        <module name="_05-application-config" />
         <module name="_03-unit-test" />
       </profile>
     </annotationProcessing>
@@ -17,6 +20,8 @@
       <module name="_02-start-icon" target="1.8" />
       <module name="_03-unit-test" target="1.8" />
       <module name="_04-hot-deployment" target="1.8" />
+      <module name="_05-application-config" target="1.8" />
+      <module name="_06-inject-property" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -25,6 +30,8 @@
       <module name="_02-start-icon" options="-parameters" />
       <module name="_03-unit-test" options="-parameters" />
       <module name="_04-hot-deployment" options="-parameters" />
+      <module name="_05-application-config" options="-parameters" />
+      <module name="_06-inject-property" options="-parameters" />
     </option>
   </component>
 </project>

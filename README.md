@@ -6,6 +6,9 @@
 - _02-start-icon   设置启动图标
 - _03-unit-test    单元测试
 - _04-hot-deployment  热部署
+- _05-application-config  application.properties 和 yml 2 种方式配置 `port` 和 `context-path`
+- _06-inject-property  2 种方式进行属性注入
+
 
 
 

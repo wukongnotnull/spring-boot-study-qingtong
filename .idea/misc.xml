@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/_02-start-icon/pom.xml" />
         <option value="$PROJECT_DIR$/_03-unit-test/pom.xml" />
         <option value="$PROJECT_DIR$/_04-hot-deployment/pom.xml" />
+        <option value="$PROJECT_DIR$/_05-application-config/pom.xml" />
+        <option value="$PROJECT_DIR$/_06-inject-property/pom.xml" />
       </list>
     </option>
   </component>
