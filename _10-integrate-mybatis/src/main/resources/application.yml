@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/wukong_blog?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&autoReconnect=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: rootroot
+    type: com.alibaba.druid.pool.DruidDataSource
+    initialSize: 30
+    minIdle: 20
+    maxActive: 200
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/**
+  type-aliases-package: com.wukongnotnull.domain
+
+# 开启debug 等级日志
+debug: true
+logging:
+  level:
+    com.wukongnotnull: debug
+

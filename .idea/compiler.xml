@@ -7,12 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="_04-hot-deployment" />
-        <module name="_02-start-icon" />
-        <module name="_06-inject-property" />
         <module name="_01-hello-world" />
-        <module name="_05-application-config" />
+        <module name="_08-profile-config" />
+        <module name="_04-hot-deployment" />
+        <module name="_09-env-setup" />
+        <module name="_02-start-icon" />
+        <module name="_10-integrate-mybatis" />
+        <module name="_12-integrate-redis" />
         <module name="_03-unit-test" />
+        <module name="_07-custom-config" />
+        <module name="_11-integrate-jpa" />
+        <module name="_06-inject-property" />
+        <module name="_13-default-log" />
+        <module name="_05-application-config" />
+        <module name="_14-aop-integrate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +30,15 @@
       <module name="_04-hot-deployment" target="1.8" />
       <module name="_05-application-config" target="1.8" />
       <module name="_06-inject-property" target="1.8" />
+      <module name="_07-custom-config" target="1.8" />
+      <module name="_08-profile-config" target="1.8" />
+      <module name="_09-env-setup" target="1.8" />
+      <module name="_10-integrate-mybatis" target="1.8" />
+      <module name="_11-integrate-jpa" target="1.8" />
+      <module name="_12-integrate-redis" target="1.8" />
+      <module name="_13-default-log" target="1.8" />
+      <module name="_14-aop-integrate" target="1.8" />
+      <module name="integrate-redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -32,6 +49,15 @@
       <module name="_04-hot-deployment" options="-parameters" />
       <module name="_05-application-config" options="-parameters" />
       <module name="_06-inject-property" options="-parameters" />
+      <module name="_07-custom-config" options="-parameters" />
+      <module name="_08-profile-config" options="-parameters" />
+      <module name="_09-env-setup" options="-parameters" />
+      <module name="_10-integrate-mybatis" options="-parameters" />
+      <module name="_11-integrate-jpa" options="-parameters" />
+      <module name="_12-integrate-redis" options="-parameters" />
+      <module name="_13-default-log" options="-parameters" />
+      <module name="_14-aop-integrate" options="-parameters" />
+      <module name="integrate-redis" options="-parameters" />
     </option>
   </component>
 </project>

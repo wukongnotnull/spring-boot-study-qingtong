@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wukongnotnull.mapper.ArticleMapper">
+    <!-- 查询单文章  -->
+    <select id="getArticleById" parameterType="int" resultType="Article">
+         select * from b_article where id = #{id}
+    </select>
+
+    <!--查询文章列表 -->
+    <select id="getArticleList" resultType="Article">
+        select * from b_article
+    </select>
+
+    <!--修改文章-->
+    <update id="updateArticle" parameterType="Article">
+        update b_article set title = #{title}, content = #{content} where id = #{id}
+    </update>
+
+    <!-- 添加文章-->
+    <insert id="addArticle" parameterType="Article">
+        insert into b_article(title,content) values(#{title},#{content})
+    </insert>
+
+    <!-- 删除文章 -->
+    <delete id="delArticle"  parameterType="int">
+        delete from b_article where id = #{id}
+    </delete>
+</mapper>
