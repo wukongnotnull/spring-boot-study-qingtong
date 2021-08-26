@@ -3,7 +3,6 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/_01-hello-world/pom.xml" />
         <option value="$PROJECT_DIR$/_02-start-icon/pom.xml" />
         <option value="$PROJECT_DIR$/_03-unit-test/pom.xml" />
         <option value="$PROJECT_DIR$/_04-hot-deployment/pom.xml" />
@@ -18,6 +17,10 @@
         <option value="$PROJECT_DIR$/_12-integrate-redis/pom.xml" />
         <option value="$PROJECT_DIR$/_13-default-log/pom.xml" />
         <option value="$PROJECT_DIR$/_14-aop-integrate/pom.xml" />
+        <option value="$PROJECT_DIR$/_15-transaction-management/pom.xml" />
+        <option value="$PROJECT_DIR$/_16-static-resource/pom.xml" />
+        <option value="$PROJECT_DIR$/_17-integrate-template/pom.xml" />
+        <option value="$PROJECT_DIR$/_01-hello-world/pom.xml" />
       </list>
     </option>
   </component>

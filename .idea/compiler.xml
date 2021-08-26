@@ -7,20 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="_01-hello-world" />
-        <module name="_08-profile-config" />
-        <module name="_04-hot-deployment" />
-        <module name="_09-env-setup" />
-        <module name="_02-start-icon" />
-        <module name="_10-integrate-mybatis" />
-        <module name="_12-integrate-redis" />
-        <module name="_03-unit-test" />
-        <module name="_07-custom-config" />
-        <module name="_11-integrate-jpa" />
-        <module name="_06-inject-property" />
-        <module name="_13-default-log" />
-        <module name="_05-application-config" />
-        <module name="_14-aop-integrate" />
+        <module name="_17-integrate-template" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,6 +25,9 @@
       <module name="_12-integrate-redis" target="1.8" />
       <module name="_13-default-log" target="1.8" />
       <module name="_14-aop-integrate" target="1.8" />
+      <module name="_15-transaction-management" target="1.8" />
+      <module name="_16-static-resource" target="1.8" />
+      <module name="_17-integrate-template" target="1.8" />
       <module name="integrate-redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -57,6 +47,9 @@
       <module name="_12-integrate-redis" options="-parameters" />
       <module name="_13-default-log" options="-parameters" />
       <module name="_14-aop-integrate" options="-parameters" />
+      <module name="_15-transaction-management" options="-parameters" />
+      <module name="_16-static-resource" options="-parameters" />
+      <module name="_17-integrate-template" options="-parameters" />
       <module name="integrate-redis" options="-parameters" />
     </option>
   </component>

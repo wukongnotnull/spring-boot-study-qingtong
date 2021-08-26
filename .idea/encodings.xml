@@ -15,5 +15,8 @@
     <file url="file://$PROJECT_DIR$/_12-integrate-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_13-default-log/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_14-aop-integrate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_15-transaction-management/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_16-static-resource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_17-integrate-template/src/main/java" charset="UTF-8" />
   </component>
 </project>
