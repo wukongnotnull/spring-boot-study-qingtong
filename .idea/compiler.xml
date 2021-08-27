@@ -7,7 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="_17-integrate-template" />
+        <module name="_18-integrate-freemarker" />
+        <module name="_20-mvc-validation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +29,9 @@
       <module name="_15-transaction-management" target="1.8" />
       <module name="_16-static-resource" target="1.8" />
       <module name="_17-integrate-template" target="1.8" />
+      <module name="_18-integrate-freemarker" target="1.8" />
+      <module name="_19-integrate-mvc" target="1.8" />
+      <module name="_20-mvc-validation" target="1.8" />
       <module name="integrate-redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -50,6 +54,9 @@
       <module name="_15-transaction-management" options="-parameters" />
       <module name="_16-static-resource" options="-parameters" />
       <module name="_17-integrate-template" options="-parameters" />
+      <module name="_18-integrate-freemarker" options="-parameters" />
+      <module name="_19-integrate-mvc" options="-parameters" />
+      <module name="_20-mvc-validation" options="-parameters" />
       <module name="integrate-redis" options="-parameters" />
     </option>
   </component>

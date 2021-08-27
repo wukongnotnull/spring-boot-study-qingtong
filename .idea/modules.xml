@@ -19,6 +19,9 @@
       <module fileurl="file://$PROJECT_DIR$/_15-transaction-management/_15-transaction-management.iml" filepath="$PROJECT_DIR$/_15-transaction-management/_15-transaction-management.iml" />
       <module fileurl="file://$PROJECT_DIR$/_16-static-resource/_16-static-resource.iml" filepath="$PROJECT_DIR$/_16-static-resource/_16-static-resource.iml" />
       <module fileurl="file://$PROJECT_DIR$/_17-integrate-template/_17-integrate-template.iml" filepath="$PROJECT_DIR$/_17-integrate-template/_17-integrate-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_18-integrate-freemarker/_18-integrate-freemarker.iml" filepath="$PROJECT_DIR$/_18-integrate-freemarker/_18-integrate-freemarker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_19-integrate-mvc/_19-integrate-mvc.iml" filepath="$PROJECT_DIR$/_19-integrate-mvc/_19-integrate-mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_20-mvc-validation/_20-mvc-validation.iml" filepath="$PROJECT_DIR$/_20-mvc-validation/_20-mvc-validation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-study-qingtong.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-study-qingtong.iml" />
     </modules>
   </component>
