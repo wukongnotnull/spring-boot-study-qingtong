@@ -1,6 +1,6 @@
 package com.wukongnotnull.controller;
 
-import com.wukongnotnull.User;
+import com.wukongnotnull.domain.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
@@ -15,7 +15,7 @@ public class UserController {
 
     @GetMapping("/register")
     public String showRegisterPage(){
-        return "registerUser";
+        return "registerUser";  //viewname
     }
 
 
@@ -34,6 +34,7 @@ public class UserController {
         }
         return list;
     }
+
 
 
 }

@@ -8,7 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="_18-integrate-freemarker" />
-        <module name="_20-mvc-validation" />
+        <module name="_22-inte-servlet-filter-listener" />
+        <module name="_23-file-upload" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +33,9 @@
       <module name="_18-integrate-freemarker" target="1.8" />
       <module name="_19-integrate-mvc" target="1.8" />
       <module name="_20-mvc-validation" target="1.8" />
+      <module name="_21-global-exception" target="1.8" />
+      <module name="_22-inte-servlet-filter-listener" target="1.8" />
+      <module name="_23-file-upload" target="1.8" />
       <module name="integrate-redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -57,6 +61,9 @@
       <module name="_18-integrate-freemarker" options="-parameters" />
       <module name="_19-integrate-mvc" options="-parameters" />
       <module name="_20-mvc-validation" options="-parameters" />
+      <module name="_21-global-exception" options="-parameters" />
+      <module name="_22-inte-servlet-filter-listener" options="-parameters" />
+      <module name="_23-file-upload" options="-parameters" />
       <module name="integrate-redis" options="-parameters" />
     </option>
   </component>
