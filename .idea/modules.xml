@@ -25,6 +25,12 @@
       <module fileurl="file://$PROJECT_DIR$/_21-global-exception/_21-global-exception.iml" filepath="$PROJECT_DIR$/_21-global-exception/_21-global-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/_22-inte-servlet-filter-listener/_22-inte-servlet-filter-listener.iml" filepath="$PROJECT_DIR$/_22-inte-servlet-filter-listener/_22-inte-servlet-filter-listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/_23-file-upload/_23-file-upload.iml" filepath="$PROJECT_DIR$/_23-file-upload/_23-file-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_24-file-download/_24-file-download.iml" filepath="$PROJECT_DIR$/_24-file-download/_24-file-download.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_25-jar-package/_25-jar-package.iml" filepath="$PROJECT_DIR$/_25-jar-package/_25-jar-package.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_26-package-war/_26-package-war.iml" filepath="$PROJECT_DIR$/_26-package-war/_26-package-war.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_27_interface-design/_27_interface-design.iml" filepath="$PROJECT_DIR$/_27_interface-design/_27_interface-design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_28-response-result/_28-response-result.iml" filepath="$PROJECT_DIR$/_28-response-result/_28-response-result.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_29-user-management/_29-user-management.iml" filepath="$PROJECT_DIR$/_29-user-management/_29-user-management.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-study-qingtong.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-study-qingtong.iml" />
     </modules>
   </component>

@@ -8,8 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="_18-integrate-freemarker" />
+        <module name="_24-file-download" />
+        <module name="_29-user-management" />
         <module name="_22-inte-servlet-filter-listener" />
-        <module name="_23-file-upload" />
+        <module name="_27_interface-design" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,6 +38,12 @@
       <module name="_21-global-exception" target="1.8" />
       <module name="_22-inte-servlet-filter-listener" target="1.8" />
       <module name="_23-file-upload" target="1.8" />
+      <module name="_24-file-download" target="1.8" />
+      <module name="_25-jar-package" target="1.8" />
+      <module name="_26-package-war" target="1.8" />
+      <module name="_27_interface-design" target="1.8" />
+      <module name="_28-response-result" target="1.8" />
+      <module name="_29-user-management" target="1.8" />
       <module name="integrate-redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -64,6 +72,12 @@
       <module name="_21-global-exception" options="-parameters" />
       <module name="_22-inte-servlet-filter-listener" options="-parameters" />
       <module name="_23-file-upload" options="-parameters" />
+      <module name="_24-file-download" options="-parameters" />
+      <module name="_25-jar-package" options="-parameters" />
+      <module name="_26-package-war" options="-parameters" />
+      <module name="_27_interface-design" options="-parameters" />
+      <module name="_28-response-result" options="-parameters" />
+      <module name="_29-user-management" options="-parameters" />
       <module name="integrate-redis" options="-parameters" />
     </option>
   </component>

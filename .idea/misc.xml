@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/_26-package-war" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/integrate-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/_23-file-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/_29-user-management/pom.xml" />
       </list>
     </option>
   </component>

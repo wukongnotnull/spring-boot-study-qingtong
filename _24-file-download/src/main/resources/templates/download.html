@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>文件下载</title>
+</head>
+<body>
+<div style="margin-bottom: 10px">文件下载列表：</div>
+<table>
+  <tr>
+    <td>文件名： wukong.rtf</td>
+    <td><a th:href="@{/downloadFile(filename='wukong.rtf')}">下载文件</a></td>
+  </tr>
+  <tr>
+    <td>文件名： 悟空.rtf</td>
+    <td><a th:href="@{/downloadFile(filename='悟空.rtf')}">
+      下载文件</a></td>
+  </tr>
+</table>
+</body>
+</html>
