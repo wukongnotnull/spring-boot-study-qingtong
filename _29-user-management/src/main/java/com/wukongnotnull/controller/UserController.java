@@ -1,5 +1,7 @@
 package com.wukongnotnull.controller;
 
+import com.github.pagehelper.PageInfo;
+import com.wukongnotnull.bo.UserParams;
 import com.wukongnotnull.domain.User;
 import com.wukongnotnull.service.UserService;
 import com.wukongnotnull.utils.ParamsException;
@@ -33,38 +35,34 @@ public class UserController {
 
     @PostMapping("/users")
     public HttpResult addUser(@Validated  @RequestBody User user){
-        HttpResult httpResult =null;
-        try {
-            User user1 = this.userService.addUser(user);
-             httpResult = HttpResult.success(user1);
-        }catch (ParamsException paramsException){
-           if(paramsException.getCode() == 520){
-               httpResult = HttpResult.failure(ResultCodeEnum.USERNAME_REPEAT);
-           }
-        }catch (Exception e){
-            httpResult = HttpResult.failure(ResultCodeEnum.WUKONG_ERROR);
-            e.printStackTrace();
-        }
 
-        return httpResult;
+        User user1 = this.userService.addUser(user);
+
+        return HttpResult.success(user1);
+
+
     }
 
     @PutMapping("/users")
     public HttpResult modifyUser(@RequestBody User user){
-        HttpResult<User> httpResult =null;
-        try {
-            User user1 = this.userService.modifyUser(user);
-            httpResult = HttpResult.success(user1);
-        }catch (ParamsException paramsException){
-            if(paramsException.getCode() == 520){
-                httpResult = HttpResult.failure(ResultCodeEnum.USERNAME_REPEAT);
-            }
-        }catch (Exception e){
-            httpResult = HttpResult.failure(ResultCodeEnum.WUKONG_ERROR);
-            e.printStackTrace();
-        }
+        User user1 = this.userService.modifyUser(user);
 
-        return httpResult;
+        return  HttpResult.success(user1);
+
+    }
+
+    @DeleteMapping("/users/{id}")
+    public HttpResult<Object> deleteUser(@PathVariable Integer id) {
+        this.userService.deleteUser(id);
+
+        return HttpResult.success();
+
+    }
+
+    @GetMapping("/users")
+    public HttpResult<Object> getUserPageList(@RequestBody UserParams userParams){
+        PageInfo<User> userPageList = this.userService.getUserPageList(userParams);
+        return  HttpResult.success(userPageList);
 
     }
 

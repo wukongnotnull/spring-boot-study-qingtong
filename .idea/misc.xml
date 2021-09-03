@@ -7,7 +7,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/integrate-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/_29-user-management/pom.xml" />
+        <option value="$PROJECT_DIR$/_30-integrate-swagger/pom.xml" />
       </list>
     </option>
   </component>

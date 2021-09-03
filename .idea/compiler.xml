@@ -9,9 +9,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="_18-integrate-freemarker" />
         <module name="_24-file-download" />
-        <module name="_29-user-management" />
         <module name="_22-inte-servlet-filter-listener" />
         <module name="_27_interface-design" />
+        <module name="_30-integrate-swagger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -44,6 +44,7 @@
       <module name="_27_interface-design" target="1.8" />
       <module name="_28-response-result" target="1.8" />
       <module name="_29-user-management" target="1.8" />
+      <module name="_30-integrate-swagger" target="1.8" />
       <module name="integrate-redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -78,6 +79,7 @@
       <module name="_27_interface-design" options="-parameters" />
       <module name="_28-response-result" options="-parameters" />
       <module name="_29-user-management" options="-parameters" />
+      <module name="_30-integrate-swagger" options="-parameters" />
       <module name="integrate-redis" options="-parameters" />
     </option>
   </component>

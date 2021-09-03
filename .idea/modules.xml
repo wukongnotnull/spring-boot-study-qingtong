@@ -31,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/_27_interface-design/_27_interface-design.iml" filepath="$PROJECT_DIR$/_27_interface-design/_27_interface-design.iml" />
       <module fileurl="file://$PROJECT_DIR$/_28-response-result/_28-response-result.iml" filepath="$PROJECT_DIR$/_28-response-result/_28-response-result.iml" />
       <module fileurl="file://$PROJECT_DIR$/_29-user-management/_29-user-management.iml" filepath="$PROJECT_DIR$/_29-user-management/_29-user-management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_30-integrate-swagger/_30-integrate-swagger.iml" filepath="$PROJECT_DIR$/_30-integrate-swagger/_30-integrate-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-study-qingtong.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-study-qingtong.iml" />
     </modules>
   </component>
